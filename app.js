@@ -28,6 +28,7 @@ const indexRouter = require('./routes/index')
 const formRouter = require('./routes/form')
 const authRouter = require('./routes/auth')
 const learningRouter = require('./routes/learning')
+const elimuCoinsRouter = require('./routes/elimuCoins')
 
  // Set view engine   
 app.set('view engine', 'ejs')
@@ -37,7 +38,7 @@ app.use('/', indexRouter)
 app.use('/form', formRouter)
 app.use('/auth', authRouter)
 app.use('/learning', learningRouter)
-
+app.use('/wallet', elimuCoinsRouter)
 
 
 app.listen(process.env.APP_RUNNING_PORT, ()=> console.info(`App now listening on port ${process.env.APP_RUNNING_PORT}`))

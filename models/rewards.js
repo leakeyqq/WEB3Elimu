@@ -12,6 +12,14 @@ const rewardsSchema = new mongoose.Schema({
     coinsEarnedOnReferring: {
         type: Number,
         default: 0
+    },
+    coinsBalance: {
+        type: Number,
+        default: 0
+    },
+    coinsWithdrawn: {
+        type: Number,
+        default: 0
     }
 })
 module.exports = mongoose.model('rewards', rewardsSchema, 'rewards')

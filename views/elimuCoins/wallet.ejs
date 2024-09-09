@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        body {
+	    background-color: #f5f7fa;
+        }
+
+        .card.panels-card .hour {
+        font-size: 0.8rem;
+        margin-top: 0.3rem;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<%- include('./../nav/main.ejs') %>
+
+
+    <div class="container">
+        <section class="mx-auto my-5" style="max-width: 53rem;">
+            
+          <div class="card panels-card">
+            <div class="rounded-top" style="background-color: #e0e0e0;">
+              <ul class="list-inline float-end my-0 py-1 pe-3">
+                <li class="list-inline-item">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </li>
+              </ul>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between z-depth-1-bottom px-3"
+              style="background-color: #fafafa;">
+              <div>
+                <ul class="list-inline my-2 py-1">
+                  <li class="list-inline-item">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                  </li>
+                  <li class="list-inline-item font-weight-bold ">
+                    <img src="img/logo-no-background.png" alt="" width="80px">
+                    <br><br>
+                    <div>Learning wallet</div>
+
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="list-inline my-2 py-1">
+                  <li class="list-inline-item">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <i class="fas fa-ellipsis-v ps-3" aria-hidden="true"></i>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="card-body rounded-bottom text-dark" style="background-color: #fafafa;">
+              <div class="row">
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #e0e0e0;">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-cloud fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <!-- <p class="mb-0 h5">15&deg;</p> -->
+                        <p class="mb-0 h5">200</p>
+
+                        <!-- <p class="mb-0 hour">12:15 PM</p> -->
+                        <p class="mb-0 hour">$ELM Tokens</p>
+
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">Earned by Learning</h6>
+                      <!-- <p class="mb-0">Cloudy</p> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #ffcc80;">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-sun fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <!-- <p class="mb-0 h5">23&deg;</p> -->
+                        <p class="mb-0 h5">50</p>
+
+                        <p class="mb-0 hour">$ELM Tokens</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">Earned by inviting</h6>
+                      <!-- <p class="mb-0">Sunny</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #9fa8da;">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-tint fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">80</p>
+                        <p class="mb-0 hour">$ELM Tokens</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <!-- <h6 class="font-weight-bold mb-1">Elimu Tokens</h6> -->
+                      <p class="mb-0">Balance</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #e0e0e0;">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-cloud fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">170</p>
+                        <p class="mb-0 hour">$ELM Tokens</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <!-- <h6 class="font-weight-bold mb-1">Elimu coins</h6> -->
+                      <p class="mb-0">Withdrawn</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="row">
+                <div class="col-6 p-1">
+                  <div class="card" style="background-color: #ffcc80;">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-sun fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">25&deg;</p>
+                        <p class="mb-0 hour">1:35 PM</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">Honolulu</h6>
+                      <p class="mb-0">Sunny</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 p-1">
+                  <div class="card indigo text-white" style="background-color: #3f51b5;">
+                    <div class="card-body pb-0">
+                      <i class="fas fa-umbrella fa-3x pb-4"></i>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-0 h5">5&deg;</p>
+                        <p class="mb-0 hour">7:00 AM</p>
+                      </div>
+                    </div>
+                    <hr class="hr-light">
+                    <div class="card-body pt-0">
+                      <h6 class="font-weight-bold mb-1">Anchorage</h6>
+                      <p class="mb-0">Heavy rain</p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+           
+              <div class="container mt-4">
+                <div class="h5 lead text-success">Withdraw earned Elimu tokens 💰</div>
+                <form action="" method="post">
+                    <div class="form-group mb-3">
+                        <!-- <label for="amount" class="form-label">Amount of Elimu Tokens</label> -->
+                         <input type="text" name="amount" id="amount" placeholder="Enter amount " class="form-group form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" id="withdrawalAddress" name="withdrawalAddress" placeholder="Withdrawal Address">
+                    </div>
+
+                    <input type="text" name="withdraw" class="btn btn-outline-primary m-2" value="Withdraw">
+                </form>
+              </div>
+
+            </div>
+          </div>
+        
+          
+        </section>
+
+        
+      </div>
+
+
+
+
+      <script>
+        const card = document.querySelector('.map-card');
+        const cardBody = card.querySelector('.card-body')
+
+        card.addEventListener('click', () => {
+        cardBody.classList.toggle('closed')
+        })
+      </script>
+</body>
+</html>
