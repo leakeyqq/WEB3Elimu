@@ -5,24 +5,38 @@ const learningProgressSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    currentChapter: {
-        type: Number,
-        default: 0
-    },
     chapter_1: {
-        type: String,
-        enum: ['Start chapter', 'In progress', 'completed'],
-        default: 'Not started'
+        enrollment: {
+            type: String,
+            enum: ['Not started', 'In progress', 'Completed'],
+            default: 'Not started'
+        },
+        chapterRewards: {
+            type: Number,
+            default: 300
+        }
     },
     chapter_2: {
-        type: String,
-        enum: ['Start chapter', 'In progress', 'completed'],
-        default: 'Start chapter'
+        enrollment: {
+            type: String,
+            enum: ['Not started', 'In progress', 'Completed'],
+            default: 'Not started'
+        },
+        chapterRewards: {
+            type: Number,
+            default: 500
+        }
     },
     chapter_3: {
-        type: String,
-        enum: ['Start chapter', 'In progress', 'completed'],
-        default: 'Start chapter'
+        enrollment: {
+            type: String,
+            enum: ['Not started', 'In progress', 'Completed'],
+            default: 'Not started'
+        },
+        chapterRewards: {
+            type: Number,
+            default: 900
+        }
     }
 })
 
