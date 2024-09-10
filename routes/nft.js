@@ -3,5 +3,8 @@ const router = express.Router()
 
 const { nftPage } = require('./../controllers/nft/handleNft')
 
-router.get('/', nftPage)
+const { isLoggedIn } = require('./../middleware/login_status')
+
+
+router.get('/', isLoggedIn, nftPage)
 module.exports = router

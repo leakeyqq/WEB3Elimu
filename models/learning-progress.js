@@ -12,7 +12,7 @@ const learningProgressSchema = new mongoose.Schema({
     chapter_1: {
         type: String,
         enum: ['Start chapter', 'In progress', 'completed'],
-        default: 'Start chapter'
+        default: 'Not started'
     },
     chapter_2: {
         type: String,
