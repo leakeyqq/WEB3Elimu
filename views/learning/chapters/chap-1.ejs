@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<%- include('./../../nav/main.ejs') %>
+
+<div class="p-5 m-3"> 
+    <div class="h2 text-success">Chapter 1 - Beginner introduction to blockchain</div>
+    <div>
+        Blockchain is a revolutionary technology that has transformed various industries by enabling decentralized, secure, and transparent systems. Whether you’re interested in cryptocurrencies like Bitcoin and Ethereum or the broader potential of blockchain in areas such as supply chain management, finance, or even gaming, this tutorial will guide you through the basics of blockchain technology.
+
+        <br><br>
+        <div class="h5">What Is Blockchain?</div>
+        At its core, blockchain is a distributed, digital ledger that records transactions in a way that is secure, transparent, and immutable (cannot be changed). It is made up of a chain of blocks, where each block contains a set of transactions. These blocks are linked together in chronological order to form a chain.
+
+        <br><br>
+        <div class="h5">Key Characteristics:</div>
+
+        1. Decentralized: No single entity controls the entire network.
+
+        <br>
+        2. Secure: Transactions are verified using cryptography.
+        
+        <br>
+        3. Transparent: Everyone in the network can see the ledger.
+
+        <br>
+        4. Immutable: Once a transaction is recorded, it cannot be altered.
+
+        <br>
+
+        <br>
+
+        <div class="h5 text-success">How does Blockchain Work?</div>
+        1. Transactions
+        Blockchain starts when a user (or node) initiates a transaction. This could be anything from transferring cryptocurrency, signing a contract, or even recording data.
+        The transaction is represented digitally and broadcast to a peer-to-peer network of computers (called nodes).
+
+        <br>
+        <br>
+        2. Verification
+        These nodes then work together to validate the transaction through a process known as consensus.
+        Different blockchains use different consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS), to agree on which transactions are valid.
+        
+        <br>
+        <br>
+        3. Block Creation
+        Once validated, the transaction is grouped with other transactions into a new block.
+        This block is then added to the existing chain, creating an unbreakable link between the new block and the previous one.
+
+        <br>
+        <br>
+        4. Immutable Ledger
+        The transaction is now part of the blockchain and can no longer be altered or deleted, ensuring a secure and transparent record.
+
+
+        Why Is Blockchain Important?
+        Blockchain offers several benefits over traditional systems, making it a game-changer for a variety of industries:
+
+        Security: The use of cryptography and decentralized validation ensures that no single point of failure exists, making it difficult for hackers to alter data.
+        Transparency: Everyone in the network can access the same ledger, increasing trust among participants.
+        Efficiency: Blockchain eliminates the need for intermediaries like banks, reducing transaction costs and time.
+        Decentralization: It distributes control among multiple participants (nodes), avoiding central authority.
+    </div>
+
+    <div class="m-3">
+        <form action="/learning/chapter/complete/1" method="post">
+            <button class="btn btn-outline-primary btn-lg">Mark chapter as complete</button>
+        </form>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

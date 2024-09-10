@@ -76,7 +76,7 @@
                       <i class="fas fa-cloud fa-3x pb-4"></i>
                       <div class="d-flex justify-content-between">
                         <!-- <p class="mb-0 h5">15&deg;</p> -->
-                        <p class="mb-0 h5">200</p>
+                        <p class="mb-0 h5"><%= rewards.coinsEarnedOnChapters %></p>
 
                         <!-- <p class="mb-0 hour">12:15 PM</p> -->
                         <p class="mb-0 hour">$ELM Tokens</p>
@@ -96,14 +96,14 @@
                       <i class="fas fa-sun fa-3x pb-4"></i>
                       <div class="d-flex justify-content-between">
                         <!-- <p class="mb-0 h5">23&deg;</p> -->
-                        <p class="mb-0 h5">50</p>
+                        <p class="mb-0 h5"><%= rewards.coinsEarnedOnReferring %></p>
 
                         <p class="mb-0 hour">$ELM Tokens</p>
                       </div>
                     </div>
                     <hr>
                     <div class="card-body pt-0">
-                      <h6 class="font-weight-bold mb-1">Earned by inviting</h6>
+                      <h6 class="font-weight-bold mb-1">Earned by inviting friends</h6>
                       <!-- <p class="mb-0">Sunny</p> -->
                     </div>
                   </div>
@@ -115,7 +115,7 @@
                     <div class="card-body pb-0">
                       <i class="fas fa-tint fa-3x pb-4"></i>
                       <div class="d-flex justify-content-between">
-                        <p class="mb-0 h5">80</p>
+                        <p class="mb-0 h5"><%= rewards.coinsBalance %></p>
                         <p class="mb-0 hour">$ELM Tokens</p>
                       </div>
                     </div>
@@ -131,7 +131,7 @@
                     <div class="card-body pb-0">
                       <i class="fas fa-cloud fa-3x pb-4"></i>
                       <div class="d-flex justify-content-between">
-                        <p class="mb-0 h5">170</p>
+                        <p class="mb-0 h5"><%= rewards.coinsWithdrawn %></p>
                         <p class="mb-0 hour">$ELM Tokens</p>
                       </div>
                     </div>
@@ -180,17 +180,17 @@
            
               <div class="container mt-4">
                 <div class="h5 lead text-success">Withdraw earned Elimu tokens 💰</div>
-                <form action="" method="post">
+                <form action="/wallet" method="post">
                     <div class="form-group mb-3">
                         <!-- <label for="amount" class="form-label">Amount of Elimu Tokens</label> -->
                          <input type="text" name="amount" id="amount" placeholder="Enter amount " class="form-group form-control">
                     </div>
 
                     <div class="form-group">
-                        <input class="form-control" type="text" id="withdrawalAddress" name="withdrawalAddress" placeholder="Withdrawal Address">
+                        <input class="form-control" type="text" id="receiver" name="receiver" placeholder="Withdrawal Address">
                     </div>
 
-                    <input type="text" name="withdraw" class="btn btn-outline-primary m-2" value="Withdraw">
+                    <input type="submit" name="withdraw" class="btn btn-outline-primary m-2" value="Withdraw">
                 </form>
               </div>
 

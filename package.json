@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.3",
     "config": "^3.3.12",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
@@ -19,6 +19,7 @@
     "mongoose": "^8.6.1",
     "passport": "^0.7.0",
     "passport-google-oauth2": "^0.2.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "web3": "^4.12.1"
   }
 }

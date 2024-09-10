@@ -30,6 +30,7 @@ const authRouter = require('./routes/auth')
 const learningRouter = require('./routes/learning')
 const elimuCoinsRouter = require('./routes/elimuCoins')
 const nftRouter = require('./routes/nft')
+const gameRouter = require('./routes/games')
 
  // Set view engine   
 app.set('view engine', 'ejs')
@@ -41,6 +42,7 @@ app.use('/auth', authRouter)
 app.use('/learning', learningRouter)
 app.use('/wallet', elimuCoinsRouter)
 app.use('/nft', nftRouter)
+app.use('/games', gameRouter)
 
 app.listen(process.env.APP_RUNNING_PORT, ()=> console.info(`App now listening on port ${process.env.APP_RUNNING_PORT}`))
 
