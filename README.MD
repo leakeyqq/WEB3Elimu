@@ -1,11 +1,20 @@
 # WEB3Elimu
-## An education platfrom that educates the youth about web3.
-We award the learner with Elimu tokens anytime they complete a chapter in our web3 course. The tokens act as incentives to the learner to keep them motivated and keep learning web3.
+## An education platfrom that educates the youth about web3 and rewards them with tokens.
 
-At the end of the course the learner is able to withdraw the tokens they have earned on our education platform and convert them to real money on an exchange.
+### Our to go strategy
+Many youths globally are engaged and participating in crypto airdrops but they have little to no knowledge about web3 and it's importance.
 
-Our platform sends the learner an NFT cetficate when they complete the course. Their certificate is publicly available on the Blockchain and any potential employer can view it.
+### Point of advatage
+We are offering a complete beginner friendly course to the youths to educate them about web3. To keep them interested Wabout learning we are rewarding them with Elimu tokens whenever they complete a chapter. The learned can exchange the tokens to money on a crypto exchange.
 
-Our platform rewards learners with Elimu tokens when they invite their friends to join them in learning web3 on our education platform.
+#### WEB3 COURSE
+Our course has 3 starter topics for the user to learn and understand
 
-Our education platform has a high success probability to deliver web3 throughout the world because of the economic incentives that it offers to learners.
+#### Invite friends to learn and earn
+When a learner invites another learner to learn web3 they are rewarded with Elimu tokens.
+
+#### Web3 certificate as an NFT
+After completing the course the learner gets an NFT cert sent to them. It permanently remains theirs and any person can verify the owner.
+
+### Web3 puzzles
+We have added puzzles to make learning more exciting and encourage users to think.
