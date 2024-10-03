@@ -7,7 +7,7 @@ An education platform that educates the youth about web3 and rewards them with t
 ### Our to go strategy
 > Many youths globally are engaged and participating in crypto airdrops but they have little to no knowledge about web3 and it's importance.
 
-### Point of advatage
+### Point of advantage
 We are offering a complete beginner friendly course to the youths to educate them about web3. To keep them interested about learning we are rewarding them with Elimu tokens whenever they complete a chapter. The learner can exchange the tokens to money on a crypto exchange.
 
 ### WEB3 COURSE
