@@ -2,6 +2,7 @@
 # WEB3Elimu
 
 Live [deployment link](https://web-3-elimu.vercel.app/)
+
 An education platform that educates the youth about web3 and rewards them with tokens.
 
 > Elimu is a Swahili word meaning education
