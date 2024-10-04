@@ -1,7 +1,7 @@
 
 # WEB3Elimu
 
-Live [https://web-3-elimu.vercel.app/](https://web-3-elimu.vercel.app/)
+[https://web-3-elimu.vercel.app](https://web-3-elimu.vercel.app/)
 
 An education platform that educates the youth about web3 and rewards them with tokens.
 
